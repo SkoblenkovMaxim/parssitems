@@ -3,7 +3,9 @@ package com.smartidea.parssitems.services;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Service;
 
+@Service
 public class MkServiceImpl {
     static String url;
 
